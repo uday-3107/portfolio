@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <title>Gunji Uday Narayana</title>
+  <meta name="description"
+    content="Portfolio of Gunji Uday Narayana, an AI/ML engineer building agents, RAG and ML systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="loader" aria-hidden="true">
+    <div class="lg"><span>U</span><span>N</span></div>
+    <div class="meter"><i id="meter"></i></div>
+    <div class="pct" id="pct">0%</div>
+  </div>
+
+  <nav class="snav" id="snav" aria-label="Sections">
+    <a href="#top" data-spy="intro"><svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M3 11l9-8 9 8v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z" />
+      </svg><span>Home</span></a>
+    <a href="#c1" data-spy="c1"><svg viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="8" r="4" />
+        <path d="M4 21c0-4 3.6-7 8-7s8 3 8 7" />
+      </svg><span>Journey</span></a>
+    <a href="#c2" data-spy="c2"><svg viewBox="0 0 24 24" aria-hidden="true">
+        <rect x="3" y="7" width="18" height="13" rx="2" />
+        <path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2" />
+      </svg><span>Work</span></a>
+    <a href="#c3" data-spy="c3"><svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+      </svg><span>Projects</span></a>
+    <a href="#c6" data-spy="c6"><svg viewBox="0 0 24 24" aria-hidden="true">
+        <polyline points="16 18 22 12 16 6" />
+        <polyline points="8 6 2 12 8 18" />
+      </svg><span>Skills</span></a>
+    <a href="#contact" data-spy="contact"><svg viewBox="0 0 24 24" aria-hidden="true">
+        <rect x="3" y="5" width="18" height="14" rx="2" />
+        <polyline points="3 7 12 13 21 7" />
+      </svg><span>Contact</span></a>
+  </nav>
+  <a href="#top" class="totop" id="totop" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true">
+      <polyline points="6 14 12 8 18 14" />
+    </svg></a>
+
+  <div class="wrap">
+    <header class="top">
+      <div class="in">
+        <a class="brand" href="#top">Uday Narayana</a>
+        <span class="where" id="where">Introduction</span>
+        <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="snav">Menu</button>
+      </div>
+      <div class="prog" aria-hidden="true"><i id="bar"></i></div>
+    </header>
+
+    <main id="top">
+      <section class="intro">
+        <div class="namerow">
+          <div class="namecol">
+            <p class="kicker reveal">AI/ML engineer · Hyderabad</p>
+            <p class="hi reveal"><span>Hi,</span> I'm</p>
+            <h1 id="name">Gunji Uday Narayana</h1>
+            <p class="typed-line reveal">and I'm <span class="t" id="typed"></span></p>
+            <div class="hero-actions reveal">
+              <a class="soc" href="https://www.linkedin.com/in/gunji-uday-narayana-355a2b322/" target="_blank"
+                rel="noopener" aria-label="LinkedIn profile"><svg viewBox="0 0 24 24" fill="currentColor"
+                  aria-hidden="true">
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                </svg></a>
+              <a class="soc" href="https://github.com/uday-3107" target="_blank" rel="noopener"
+                aria-label="GitHub profile"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                </svg></a>
+              <a class="dl" href="https://drive.google.com/file/d/1bqetxHS8f5OTgzUnYPUYWE-rIKIGY66G/view?usp=sharing"
+                target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 3v12M7 10l5 5 5-5M4 20h16" />
+                </svg><span>View Resume</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="hgrid">
+          <div>
+            <p class="lead reveal">I build AI agents and language systems that people can trust in production. Here is
+              how I got here, one project at a time.</p>
+            <div class="cue reveal"><i></i><span>Scroll to follow the story</span></div>
+          </div>
+          <div class="side reveal">
+            <dl class="plate">
+              <div>
+                <dt>Open to roles</dt>
+                <dd class="roles"><span class="pill">AI/ML Engineer</span><span class="pill">Software Engineer
+                    (SDE)</span><span class="pill">Python Developer</span><span class="pill">Machine Learning
+                    Engineer</span><span class="pill">Generative AI Engineer</span><span class="pill">Agentic AI
+                    Engineer</span><span class="pill">Data Analyst</span></dd>
+              </div>
+              <div>
+                <dt>Status</dt>
+                <dd>Final-year student</dd>
+              </div>
+              <div>
+                <dt>Degree</dt>
+                <dd>B.Tech CSE · graduating May–June 2027</dd>
+              </div>
+              <div>
+                <dt>Focus</dt>
+                <dd>LLM agents · RAG · computer vision</dd>
+              </div>
+              <div>
+                <dt>Base</dt>
+                <dd>Hyderabad, India</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="facts" id="facts">
+        <div class="fgrid">
+          <p class="kicker reveal">By the numbers</p>
+          <div class="fbox reveal zoom"><b class="count" data-to="9" data-dec="0" data-suf="+">9+</b><span>end-to-end ML
+              projects delivered</span></div>
+          <div class="fbox reveal zoom"><b class="count" data-to="5" data-dec="0">5</b><span>agents working together in
+              LoanShield</span></div>
+          <div class="fbox reveal zoom"><b class="count" data-to="252" data-dec="0">252</b><span>end-to-end test rows
+              for the shopping assistant</span></div>
+          <div class="fbox reveal zoom"><b class="count" data-to="20712" data-dec="0">20,712</b><span>samples used to
+              benchmark the deepfake detectors</span></div>
+        </div>
+      </section>
+
+      <section class="chap" id="c1" data-title="Where it started">
+        <div class="rail">
+          <div class="num"><small>Chapter</small>01</div>
+          <h2>Where it started</h2>
+          <p>From a first dashboard to explaining why a model made a decision.</p>
+        </div>
+        <div class="body">
+          <div class="tl" id="tl1">
+            <div class="st reveal">
+              <h3>Learning the fundamentals</h3>
+              <div class="meta">Code Unnati · SAP CSR / Edunet Foundation · 2024 – 2026</div>
+              <p>Studied AI/ML, deep learning and edge computing, and built a Streamlit health-tracking dashboard with
+                Pandas and NumPy.</p>
+            </div>
+            <div class="st reveal">
+              <h3>A taste of client work</h3>
+              <div class="meta">Deloitte Australia job simulation (Forage) · May 2026</div>
+              <p>Completed coding tasks and wrote a dashboard proposal, the first time I had to explain analysis to a
+                business reader.</p>
+            </div>
+            <div class="st reveal">
+              <h3>Nine projects, end to end</h3>
+              <div class="meta">AI/ML Intern · Data Vidwan · Jun – Sep 2026</div>
+              <p>Delivered 9 projects from preprocessing to deployed Streamlit and FastAPI apps, and used SHAP so each
+                result came with a reason.</p>
+              <div class="spec">
+                <div class="r"><span>ROC-AUC · heart-disease prediction</span><i></i><b class="count" data-to="0.90"
+                    data-dec="2">0.90</b></div>
+                <div class="r"><span>XGBoost R² · real-estate pricing</span><i></i><b class="count" data-to="0.88"
+                    data-dec="2">0.88</b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="chap band" id="c2" data-title="Work at Accesco Living">
+        <div class="rail">
+          <div class="num"><small>Chapter</small>02</div>
+          <h2>Work at Accesco Living</h2>
+          <p>AI/ML engineer, July – October 2026.</p>
+        </div>
+        <div class="body">
+          <div class="reveal">
+            <h3>A shopping assistant</h3>
+            <p>Built with a teammate. It works out what a visitor wants and acts on it, including adding the right
+              variant to the cart.</p>
+            <ul>
+              <li><b>Semantic search</b> over the live Firestore catalog. The FAISS index rebuilds itself when the data
+                changes.</li>
+              <li><b>Intent detection</b> with a DistilBERT classifier plus keyword rules.</li>
+              <li><b>Hindi, Telugu and Kannada</b> through IndicTrans2, plus Whisper voice input.</li>
+              <li><b>A nightly retrain</b> that only goes live if accuracy holds.</li>
+            </ul>
+            <div class="spec">
+              <div class="r"><span>end-to-end test rows</span><i></i><b class="count" data-to="252" data-dec="0">252</b>
+              </div>
+              <div class="r"><span>Indian languages supported</span><i></i><b class="count" data-to="3"
+                  data-dec="0">3</b></div>
+            </div>
+            <p class="stack"><b>Stack</b>FAISS · DistilBERT · Firestore · Whisper · IndicTrans2</p>
+          </div>
+          <div class="reveal">
+            <h3>Reverse Commerce grading</h3>
+            <p>An image classifier grades returned items from a photo. A rules engine adds a human-review queue and a
+              food-safety gate, so uncertain or risky items never go out unchecked.</p>
+            <div class="spec">
+              <div class="r"><span>accuracy · YOLOv8s-cls</span><i></i><b class="count" data-to="98.7" data-dec="1"
+                  data-suf="%">98.7%</b></div>
+              <div class="r"><span>recall on rejected items · 150 validation images</span><i></i><b class="count"
+                  data-to="100" data-dec="0" data-suf="%">100%</b></div>
+              <div class="r"><span>automated tests</span><i></i><b class="count" data-to="59" data-dec="0">59</b></div>
+            </div>
+            <p class="stack"><b>Stack</b>YOLOv8 · FastAPI · Firestore logging</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="chap" id="c3" data-title="Projects">
+        <div class="rail">
+          <div class="num"><small>Chapter</small>03</div>
+          <h2>Projects</h2>
+          <p>Systems I designed and built, from agent workflows to computer vision.</p>
+        </div>
+        <div class="body">
+          <div class="reveal zoom pcard"><span class="blob" aria-hidden="true"><svg viewBox="0 0 600 600">
+                <path
+                  d="M300,60C430,50 560,150 540,300C520,450 420,560 290,545C150,530 50,430 70,290C90,150 190,70 300,60Z" />
+              </svg><b>01</b></span>
+            <h3>LoanShield: five agents, one workflow</h3>
+            <p>A multi-agent lending risk platform. Each agent has one job, and a person steps in when the case needs
+              judgment.</p>
+            <div class="pipe pre" id="pipe" data-stagger>
+              <div class="step"><b>1 · Orchestrator</b><span>Routes the application</span></div>
+              <div class="step"><b>2 · Gatekeeper</b><span>Checks it is complete</span></div>
+              <div class="step"><b>3 · Financial</b><span>Scores the applicant</span></div>
+              <div class="step"><b>4 · Fraud</b><span>Looks for red flags</span></div>
+              <div class="step"><b>5 · Explanations</b><span>Writes the decision letter</span></div>
+              <div class="step h"><b>Human review</b><span>Scores of 40–69 and incomplete applications are sent to a
+                  person. Rejections get an ECOA-compliant adverse action letter.</span></div>
+            </div>
+            <div class="sim-ctl" role="group" aria-label="Try the routing rules"><span class="kicker">Try it</span>
+              <button type="button" data-s="strong" aria-pressed="false">Complete · strong score</button>
+              <button type="button" data-s="marginal" aria-pressed="false">Complete · score 55</button>
+              <button type="button" data-s="incomplete" aria-pressed="false">Incomplete application</button>
+            </div>
+            <p class="sim-out" id="simout" aria-live="polite">Pick a case to see how the agents route it. This is a
+              simplified illustration of the rules above.</p>
+            <p>Steps stream live to the browser over SSE, which leaves an auditable trail. A 54-scenario suite covers
+              approval, rejection and fraud paths.</p>
+            <p class="stack"><b>Stack</b>Google ADK · LangGraph · MCP</p>
+            <a class="plink" href="https://github.com/uday-3107/LoanShield" target="_blank" rel="noopener">View on
+              GitHub →</a>
+          </div>
+          <div class="reveal zoom pcard"><span class="blob" aria-hidden="true"><svg viewBox="0 0 600 600">
+                <path
+                  d="M300,60C430,50 560,150 540,300C520,450 420,560 290,545C150,530 50,430 70,290C90,150 190,70 300,60Z" />
+              </svg><b>02</b></span>
+            <h3>Speak Local, Understand Global</h3>
+            <p>An offline multilingual lecture translator. Speech goes in, translated captions come out in real time,
+              with no internet required.</p>
+            <ul>
+              <li>Whisper speech recognition feeding IndicTrans2 and NLLB-200, streamed over WebSockets.</li>
+              <li>Compared seven language classifiers before choosing the model.</li>
+              <li>Added a local Ollama/Mistral assistant and 100+ pytest tests.</li>
+            </ul>
+            <div class="spec">
+              <div class="r"><span>caption delay, before → after</span><i></i><b>5s → 2s</b></div>
+              <div class="r"><span>F1 · Transformer (best classical: 0.659)</span><i></i><b class="count"
+                  data-to="0.936" data-dec="3">0.936</b></div>
+            </div>
+            <p class="stack"><b>Stack</b>Whisper · IndicTrans2 · NLLB-200 · FastAPI · PostgreSQL</p>
+            <a class="plink" href="https://github.com/uday-3107/speak-local-understand-global" target="_blank"
+              rel="noopener">View on GitHub →</a>
+          </div>
+          <div class="reveal zoom pcard"><span class="blob" aria-hidden="true"><svg viewBox="0 0 600 600">
+                <path
+                  d="M300,60C430,50 560,150 540,300C520,450 420,560 290,545C150,530 50,430 70,290C90,150 190,70 300,60Z" />
+              </svg><b>03</b></span>
+            <h3>Waste segregation system</h3>
+            <p>Sorts waste into 7 categories from a photo. Chosen after benchmarking 4 classical and 3 deep learning
+              models, with Grad-CAM heatmaps showing what the model looked at. If the LLM is unavailable, rules provide
+              the guidance.</p>
+            <div class="spec">
+              <div class="r"><span>test accuracy · YOLOv8n-cls</span><i></i><b class="count" data-to="92.9" data-dec="1"
+                  data-suf="%">92.9%</b></div>
+            </div>
+            <p class="stack"><b>Stack</b>YOLOv8 · Grad-CAM · SQLite</p>
+            <a class="plink" href="https://github.com/uday-3107/waste-segregation-app" target="_blank"
+              rel="noopener">View on GitHub →</a>
+          </div>
+          <div class="reveal zoom pcard"><span class="blob" aria-hidden="true"><svg viewBox="0 0 600 600">
+                <path
+                  d="M300,60C430,50 560,150 540,300C520,450 420,560 290,545C150,530 50,430 70,290C90,150 190,70 300,60Z" />
+              </svg><b>04</b></span>
+            <h3>DeepFake AI</h3>
+            <p>A forensic tool that checks whether text, images, video or audio were generated by AI. It combines local
+              models with Gemini 2.5 Flash and falls back to offline mode automatically. Seven classifiers were
+              benchmarked on 20,712 samples.</p>
+            <p class="stack"><b>Stack</b>Django · OpenCV · Gemini</p>
+            <a class="plink" href="https://github.com/uday-3107/deepfake-detection" target="_blank"
+              rel="noopener">View on GitHub →</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="chap band" id="c6" data-title="The toolbox">
+        <div class="rail">
+          <div class="num"><small>Chapter</small>04</div>
+          <h2>The toolbox</h2>
+          <p>What I use to build and ship, and where I studied.</p>
+        </div>
+        <div class="body">
+          <div class="tgrid">
+            <div class="tcard reveal zoom">
+              <div class="th"><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="6" cy="6" r="2.5" />
+                  <circle cx="18" cy="6" r="2.5" />
+                  <circle cx="12" cy="18" r="2.5" />
+                  <path d="M8 7.5l3 8M16 7.5l-3 8M8.5 6h7" />
+                </svg>
+                <h3>Agents &amp; LLMs</h3>
+              </div>
+              <ul class="chips">
+                <li>LangGraph</li>
+                <li>Google ADK</li>
+                <li>MCP</li>
+                <li>RAG</li>
+                <li>FAISS</li>
+                <li>Gemini API</li>
+                <li>Ollama</li>
+              </ul>
+            </div>
+            <div class="tcard reveal zoom">
+              <div class="th"><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 20V10M10 20V4M16 20v-8M22 20H2" />
+                </svg>
+                <h3>Machine learning</h3>
+              </div>
+              <ul class="chips">
+                <li>PyTorch</li>
+                <li>TensorFlow</li>
+                <li>Transformers</li>
+                <li>YOLOv8</li>
+                <li>EfficientNet</li>
+                <li>scikit-learn</li>
+                <li>XGBoost</li>
+                <li>Whisper</li>
+                <li>OpenCV</li>
+                <li>SHAP</li>
+              </ul>
+            </div>
+            <div class="tcard reveal zoom">
+              <div class="th"><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="4" width="18" height="6" rx="1.5" />
+                  <rect x="3" y="14" width="18" height="6" rx="1.5" />
+                  <path d="M7 7h.01M7 17h.01" />
+                </svg>
+                <h3>Backend</h3>
+              </div>
+              <ul class="chips">
+                <li>Python</li>
+                <li>SQL</li>
+                <li>FastAPI</li>
+                <li>Django</li>
+                <li>WebSockets</li>
+                <li>Firestore</li>
+                <li>PostgreSQL</li>
+                <li>SQLite</li>
+              </ul>
+            </div>
+            <div class="tcard reveal zoom">
+              <div class="th"><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M21 8l-9-5-9 5v8l9 5 9-5z" />
+                  <path d="M3 8l9 5 9-5M12 13v8" />
+                </svg>
+                <h3>Shipping</h3>
+              </div>
+              <ul class="chips">
+                <li>Docker</li>
+                <li>Cloud Run</li>
+                <li>Git</li>
+                <li>pytest</li>
+                <li>Streamlit</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tgrid">
+            <div class="tcard reveal zoom">
+              <div class="th"><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M2 9l10-5 10 5-10 5z" />
+                  <path d="M6 11v5c0 1.5 3 3 6 3s6-1.5 6-3v-5" />
+                </svg>
+                <h3>Education</h3>
+              </div>
+              <p><b>B.Tech, Computer Science</b><br>Avanthi's Scientific Technological &amp; Research Academy<br>2023 –
+                2027 · CGPA 7.7</p>
+            </div>
+            <div class="tcard reveal zoom">
+              <div class="th"><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="12" cy="9" r="6" />
+                  <path d="M8.5 14L7 22l5-3 5 3-1.5-8" />
+                </svg>
+                <h3>Certifications</h3>
+              </div>
+              <ul class="chips">
+                <li>Kaggle × Google AI Agents Intensive</li>
+                <li>Google Cloud Skill Badges ×5</li>
+                <li>Deloitte Technology Job Simulation</li>
+                <li>Code Unnati (Edunet / SAP CSR)</li>
+                <li>SQL Micro Course</li>
+                <li>HP LIFE AI for Beginners</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="close" id="contact" data-title="Next chapter">
+        <p class="kicker reveal">Next chapter</p>
+        <h2 class="reveal">Let's build the next one.</h2>
+        <p class="reveal">I'm open to AI engineering roles and internships, and I graduate in May–June 2027. Code for
+          these projects is on my GitHub.</p>
+        <div class="row reveal">
+          <span class="mail" id="mail">udaynarayana45@gmail.com</span>
+          <button class="btn solid" id="copy" type="button">Copy email</button>
+          <a class="btn" href="https://www.linkedin.com/in/gunji-uday-narayana-355a2b322/" target="_blank"
+            rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://github.com/uday-3107" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <footer><span>Gunji Uday Narayana</span><span>Hyderabad, India</span></footer>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
